@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local outputs (generated, never committed)
+outputs/
+outputs/**
+
+# Checkpoints / state
+state*.json
+
+# Flags and reports (generated)
+flags*.log
+validation*.json
+
+# Logs (keep only curated ones manually)
+logs/run_*.json
+
+# Temporary / scratch
+*.tmp
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS / misc
+Thumbs.db
