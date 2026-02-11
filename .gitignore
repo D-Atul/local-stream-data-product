@@ -17,16 +17,9 @@ outputs/**
 # Checkpoints / state
 state*.json
 
-# Flags and reports (generated)
-flags*.log
-validation*.json
 
-# Logs (keep only curated ones manually)
-logs/run_*.json
-
-# Temporary / scratch
+# Temporary
 *.tmp
-*.log
 
 # IDE / editor
 .vscode/
