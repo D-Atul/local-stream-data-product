@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from typing import Any, Dict, Optional
 
 from src.contracts.event_contract import validate_event, contract_id
-from src.jobs.rules import RuleConfig, WatcherState, evaluate_rules
+from src.pipelines.rules import RuleConfig, WatcherState, evaluate_rules
 
 
 # -----------------------------
