@@ -142,7 +142,7 @@ The project includes:
 Clone the repository.
 
 ```
-git clone https://github.com/<username>/local-stream-data-product.git
+git clone https://github.com/D-Atul/local-stream-data-product.git
 cd local-stream-data-product
 ```
 
