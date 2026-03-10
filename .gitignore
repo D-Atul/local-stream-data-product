@@ -11,10 +11,6 @@ __pycache__/
 .ipynb_checkpoints/
 
 
-# Checkpoints / state
-state*.json
-
-
 # Temporary
 *.tmp
 
