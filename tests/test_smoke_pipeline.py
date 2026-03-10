@@ -35,7 +35,7 @@ def test_smoke_pipeline(tmp_path):
         [
             sys.executable,
             "-m",
-            "src.jobs.watcher",
+            "src.pipelines.watcher",
             "--stream",
             str(stream),
             "--checkpoint",
