@@ -1,4 +1,4 @@
-from src.jobs.rules import WatcherState
+from src.pipelines.rules import WatcherState
 
 
 def test_watcher_state_initializes_user():

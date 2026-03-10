@@ -1,4 +1,4 @@
-from src.jobs.rules import evaluate_rules, WatcherState, RuleConfig
+from src.pipelines.rules import evaluate_rules, WatcherState, RuleConfig
 
 BASE_EVENT = {
     "event_id": "e1",
