@@ -1,0 +1,32 @@
+{
+  "run_id": "423bbf6088454e9a9f4bebda4cc6939e",
+  "ended_at": "2026-03-09T12:42:23.872724+00:00",
+  "status": "success",
+  "contract": {
+    "name": "money_flow_event_contract",
+    "version": "v1"
+  },
+  "paths": {
+    "stream": "data/stream.log",
+    "flags": "outputs/flags/flags.log",
+    "checkpoint": "outputs/checkpoints/state.json"
+  },
+  "policy": {
+    "ordering": "arrival-order; event_time must be non-decreasing (fail-fast if violated)",
+    "duplicates": "fail-fast on duplicate event_id within a watcher run"
+  },
+  "counts": {
+    "events_read": 1543,
+    "events_valid": 1543,
+    "flags_emitted": 387,
+    "json_parse_failures": 0,
+    "contract_failures": 0,
+    "duplicate_failures": 0,
+    "ordering_failures": 0
+  },
+  "checkpoint": {
+    "path": "outputs/checkpoints/state.json",
+    "offset": 2287784
+  },
+  "last_event_time": "2026-03-09T12:41:48.158566+00:00"
+}

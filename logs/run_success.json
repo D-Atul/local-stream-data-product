@@ -1,0 +1,23 @@
+{
+  "run_id": "b1a0816045df4208a3d14ed290490119",
+  "started_at": "2026-03-09T12:40:32.416461+00:00",
+  "ended_at": "2026-03-09T12:41:32.736893+00:00",
+  "status": "success",
+  "contract": {
+    "name": "money_flow_event_contract",
+    "version": "v1"
+  },
+  "paths": {
+    "stream": "data/stream.log",
+    "flags": "outputs/flags/flags.log"
+  },
+  "offsets": {
+    "resume_offset": 0,
+    "final_offset": 1870846
+  },
+  "counts": {
+    "events_read": 6924,
+    "events_valid": 6924,
+    "flags_emitted": 1909
+  }
+}

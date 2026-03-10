@@ -10,9 +10,6 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Local outputs (generated, never committed)
-outputs/
-outputs/**
 
 # Checkpoints / state
 state*.json

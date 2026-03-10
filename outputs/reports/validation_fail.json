@@ -1,0 +1,36 @@
+{
+  "run_id": "c8aee78a888e441f8d6ed5f00649ae41",
+  "ended_at": "2026-02-01T14:34:40.551771+00:00",
+  "status": "failed",
+  "contract": {
+    "name": "money_flow_event_contract",
+    "version": "v1"
+  },
+  "paths": {
+    "stream": "data/stream.log",
+    "flags": "outputs/flags/flags.log",
+    "checkpoint": "outputs/checkpoints/state.json"
+  },
+  "policy": {
+    "ordering": "arrival-order (event_time non-decreasing)",
+    "duplicates": "fail-fast on duplicate event_id"
+  },
+  "counts": {
+    "events_read": 1,
+    "events_valid": 0,
+    "flags_emitted": 0,
+    "json_parse_failures": 1,
+    "contract_failures": 0,
+    "duplicate_failures": 0,
+    "ordering_failures": 0
+  },
+  "checkpoint": {
+    "path": "outputs/checkpoints/state.json",
+    "offset": 0
+  },
+  "last_event_time": null,
+  "error": {
+    "type": "ValueError",
+    "message": "invalid JSON line encountered; failing fast"
+  }
+}
