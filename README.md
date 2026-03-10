@@ -168,7 +168,7 @@ python -m src.stream.generator
 Start the watcher.
 
 ```
-python -m src.pipeline.watcher
+python -m src.pipelines.watcher
 ```
 
 Artifacts produced:
