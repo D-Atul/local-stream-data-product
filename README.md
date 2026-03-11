@@ -1,6 +1,6 @@
 # Compliance Stream Data Pipeline Product
 
-![CI](https://github.com/D-Atul/stream-batch-data-product/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/D-Atul/local-stream-data-product/actions/workflows/ci.yml/badge.svg)
 
 A deterministic streaming-style data pipeline that validates financial transaction events, evaluates compliance rules in near-real time, and produces reproducible audit artifacts including flags, checkpoints, and run logs.
 
