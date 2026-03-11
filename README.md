@@ -67,7 +67,7 @@ data/
 src/
     contracts/
         event_contract.py      schema validation logic
-    pipeline/
+    pipelines/
         rules.py               compliance rule evaluation
         watcher.py             stream consumer and rule engine
     stream/
