@@ -97,7 +97,7 @@ evidence/
     EvidenceNB.ipynb           run verification notebook
 
 framework/
-    stream_framework.ipynb
+    stream_framework.md
 ```
 
 ---
