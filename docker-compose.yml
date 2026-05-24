@@ -1,0 +1,11 @@
+services:
+  local-stream-pipeline:
+    build: .
+    container_name: local-stream-data-product
+    environment:
+      - PYTHONPATH=/app
+    volumes:
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+      - ./data:/app/data
+    command: sh -c "python -m src.pipelines.watcher & python -m src.stream.generator"
